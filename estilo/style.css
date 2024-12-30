@@ -1,10 +1,28 @@
 @charset "UTF-8";
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: gray;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(172, 172, 248), blue);
+    min-height: 150px;
     text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+
+
+.fotos {
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
 }
