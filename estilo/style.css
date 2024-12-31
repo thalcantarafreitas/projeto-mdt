@@ -7,6 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    height: 98vh;
 }
 
 header {
@@ -17,12 +18,40 @@ header {
     color: white;
 }
 
+nav > a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+main img {
+    width: 100%;
+
+}
 
 
 .fotos {
     border: 1px solid black;
     border-radius: 20px;
-    height: 300px;
-    width: 300px;
+
+    height: 250px;
+    width: 200px;
     margin: 10px;
+    display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+   
+    
 }
+
+div#f1 {
+    background-image: url('../imagens/1.jpeg');
+}
+
+div#f2 {
+    background-image: url('../imagens/2.jpeg');
+}
+
+div#f3 {
+    background-image: url('../imagens/3.jpeg');
+}
+
