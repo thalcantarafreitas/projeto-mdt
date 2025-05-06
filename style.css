@@ -15,9 +15,12 @@ header {
   align-items: center;
 }
 
+
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+margin: auto;
+font-weight: bold;
+font-size: 1.3em;
+text-align: center;
 }
 
 nav ul {
