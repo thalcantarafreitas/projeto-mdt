@@ -105,3 +105,23 @@ footer {
   color: white;
   margin-top: 2rem;
 }
+
+.galeria {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  padding: 10px;
+  max-width: 250px;
+  text-align: center;
+}
+.item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
