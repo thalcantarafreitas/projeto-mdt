@@ -15,7 +15,6 @@ header {
   align-items: center;
 }
 
-
 .logo {
 width: 70px;
 height: 200px;  
@@ -23,6 +22,12 @@ margin: auto;
 font-weight: bold;
 font-size: 1.3em;
 text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  
 }
 
 nav ul {
@@ -114,6 +119,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .item {
   background: white;
   border-radius: 10px;
@@ -122,6 +128,7 @@ footer {
   max-width: 250px;
   text-align: center;
 }
+
 .item img {
   max-width: 100%;
   border-radius: 8px;
